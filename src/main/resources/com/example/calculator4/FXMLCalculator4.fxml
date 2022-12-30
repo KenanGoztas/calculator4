@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator4.Calculator4Controller">
+   <children>
+      <TextField fx:id="firstNumber" alignment="CENTER" layoutX="23.0" layoutY="54.0" />
+      <TextField fx:id="secondNumber" alignment="CENTER" layoutX="226.0" layoutY="54.0" />
+      <TextField fx:id="resultField" alignment="CENTER" layoutX="120.0" layoutY="331.0" />
+      <Button layoutX="178.0" layoutY="97.0" mnemonicParsing="false" onAction="#calculate" prefWidth="35.0" text="+">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="178.0" layoutY="238.0" mnemonicParsing="false" onAction="#calculate" prefWidth="35.0" text="/">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="178.0" layoutY="191.0" mnemonicParsing="false" onAction="#calculate" prefWidth="35.0" text="*">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="178.0" layoutY="144.0" mnemonicParsing="false" onAction="#calculate" prefWidth="35.0" text="-">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Label layoutX="62.0" layoutY="23.0" text="firs number">
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </Label>
+      <Label layoutX="243.0" layoutY="23.0" text="second number">
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </Label>
+      <Label layoutX="175.0" layoutY="313.0" text="result" />
+   </children>
+</AnchorPane>
